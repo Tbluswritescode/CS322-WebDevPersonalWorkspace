@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://cdn.rawgit.com/jgthms/minireset.css/master/minireset.css">
+		<link rel="stylesheet" href="css/debug.css">
+		<link rel="stylesheet" href="landingstyles.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900">
+		<script src="https://unpkg.com/browse/vue@3.0.8/"></script>
+	</head>
+	<body>
+
+		<div id="app">
+			<h1 class="landingtitle">{{titleMsg}}</h1>
+			<img v-bind:src="Headshot":alt="Tristan Blus"/>
+			<p class="Intro">{{introduction}}</p>
+			<img v-bind:src="Resume":alt="Tristan Blus' Resume"/>
+            
+		</div>
+		<script scr="app.js"></script>
+	</body>
