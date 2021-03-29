@@ -1,0 +1,28 @@
+{
+  "name": "cs322webdev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "deploy": "deploy.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tbluswritescode/CS322-WebDevPersonalWorkspace.git"
+  },
+  "author": "Tristan Blus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tbluswritescode/CS322-WebDevPersonalWorkspace/issues"
+  },
+  "homepage": "https://github.com/Tbluswritescode/CS322-WebDevPersonalWorkspace#readme",
+  "dependencies": {
+    "vue": "^3.0.9"
+  },
+  "devDependencies": {
+    "@vue/compiler-sfc": "^3.0.9"
+  }
+}
