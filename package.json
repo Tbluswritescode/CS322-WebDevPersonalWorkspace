@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/Tbluswritescode/CS322-WebDevPersonalWorkspace#readme",
   "dependencies": {
+    "@vue/cli": "^4.5.12",
     "vue": "^3.0.9"
   },
   "devDependencies": {
