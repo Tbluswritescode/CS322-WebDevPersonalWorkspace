@@ -1,8 +1,8 @@
 const app = Vue.createApp({
     data() {
         return {
-            Headshot: '/hs.jpg',
-            Resume: "/resume.PNG",
+            Headshot: 'hs.jpg',
+            Resume: "resume.PNG",
             opener: "Hi, I'm Tristan Blus! Welcome to my page!",
             titleMsg: "Programming student with significant experience in Python, C++, C#, and Ruby.  I also know front end web development fundamentals, and am learning full stack development using Vue.js and python. ",
             Introduction: "I am an aspriring software developer and a Junior at Knox College, pursuing a Bachelors of Science in Computer Science.  In addition to my studies, I have helped build multiple websites through squarespace and wordpress.  In school I have built a few very simple projects using unity, and have accumulated a significant portion of code on GitHub. I also have more than five years of experience as a theatrical lighting technician, lighting board operator, and scenic carpenter.  Feel free to investigate my programming work on...",
